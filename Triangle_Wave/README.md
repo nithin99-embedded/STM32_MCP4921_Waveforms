@@ -16,29 +16,20 @@ This project generates a \*\*triangle waveform\*\* using the MCP4921 12-bit SPI 
 
 
 
-\## ⚙️ Circuit Connections
-
-
+## ⚡ Circuit Connections (Common for All)
 
 | MCP4921 Pin | STM32 Pin | Description |
-
 |--------------|------------|-------------|
+| **VDD (1)** | 3.3 V | Power |
+| **CS̅ (2)** | PA4 | Chip Select |
+| **SCK (3)** | PA5 | SPI Clock |
+| **SDI (4)** | PA7 | SPI MOSI |
+| **LDAC̅ (5)** | GND | Latch (always enabled) |
+| **VREF (6)** | 3.3 V | Reference voltage |
+| **VSS (7)** | GND | Ground |
+| **VOUT (8)** | Output | Connect to multimeter or oscilloscope |
 
-| \*\*VDD (1)\*\*  | 3.3 V | Power |
-
-| \*\*CS̅ (2)\*\*  | PA4 | Chip Select |
-
-| \*\*SCK (3)\*\*  | PA5 | SPI Clock |
-
-| \*\*SDI (4)\*\*  | PA7 | SPI MOSI |
-
-| \*\*LDAC̅ (5)\*\* | GND | Latch (always enabled) |
-
-| \*\*VREF (6)\*\* | 3.3 V | Reference |
-
-| \*\*VSS (7)\*\*  | GND | Ground |
-
-| \*\*VOUT (8)\*\* | Multimeter / Oscilloscope | Output Voltage |
+---
 
 
 
