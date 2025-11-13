@@ -41,21 +41,6 @@ Each project demonstrates a different waveform type with clear code, circuit con
 
 ---
 
-## 📁 Project Structure
-
-STM32_MCP4921_Waveforms/
-├── Sawtooth_Wave/
-├── Triangle_Wave/
-├── Square_Wave/
-└── Random_Wave/
-
-
-Each folder includes:
-- Complete STM32CubeIDE project (`Core/`, `Drivers/`, `.ioc`)
-- Individual `README.md` explaining code and output
-- Hardware setup photos in `/images/`
-
----
 
 ## 🧮 Generated Waveforms
 
@@ -81,7 +66,7 @@ Each folder includes:
 
 ## 🖼️ Hardware Setup Example
 
-![Hardware Setup](Sawtooth_Wave/images/Full_Setup.jpg)
+![Hardware Setup](Sawtooth_Wave/images/Full_Setup.jpeg)
 *Example setup of STM32 Nucleo-F103RB with MCP4921 on breadboard.*
 
 ---
