@@ -9,7 +9,7 @@
  * Generates a sawtooth (ramp) waveform from 0V → 3.3V repeatedly
  * using the MCP4921 12-bit SPI DAC.
  *
- * Delay = 100 ms for easy visibility on multimeter.
+ * Delay = 150 ms for easy visibility on multimeter.
  * Reduce to smaller delay (e.g., 2 ms) for faster oscilloscope testing.
  */
 
@@ -147,7 +147,7 @@ int main(void)
 	  for (uint16_t i = 0; i < 4096; i += 100)
 	     {
 	         MCP4921_Write(i);   // Send next DAC value
-	         HAL_Delay(150);     // 100 ms step delay (slow for multimeter)
+	         HAL_Delay(150);     // 150 ms step delay (slow for multimeter)
 
 	     }
 
