@@ -51,19 +51,13 @@ V\_{out} = \\frac{D}{4096} \\times V\_{REF}
 
 
 
-\## 🖼️ Hardware Setup
+## 🖼️ Hardware Setup
 
+### Full Setup
+![Full Setup](images/Full_Setup.jpeg)
 
-
-\### Full Setup
-
-!\[Full Setup](images/Full\_Setup.jpg)
-
-
-
-\### Close-up of MCP4921 Wiring
-
-!\[Close-up](images/MCP4921\_Closeup.jpg)
+### Close-up of MCP4921 Wiring
+![Close-up](images/MCP4921_Closeup.jpeg)
 
 
 
